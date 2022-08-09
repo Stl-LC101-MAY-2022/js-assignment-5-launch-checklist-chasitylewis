@@ -9,11 +9,11 @@ window.addEventListener("load", function() {
 let pilot = document.querySelector("input[name=pilotName]").value;
 let copilot = document.querySelector("input[name=copilotName]").value;
 let fuelLevel = document.querySelector("input[name=fuelLevel]").value;
-let cargoLevel = document.querySelector("input[name=cargoMass]").value;
+let cargoMass = document.querySelector("input[name=cargoMass]").value;
 
 let list = document.getElementById('faultyItems');
 
-formSubmission(document, pilot, copilot, fuelLevel, cargoMass)
+formSubmission(document, pilot, copilot, fuelLevel, cargoMass);
 
     })
 
